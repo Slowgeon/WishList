@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BF5EB832BC7C19900EF7725 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5EB812BC7C19900EF7725 /* Model.xcdatamodeld */; };
+		2BF5EB862BC8046800EF7725 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5EB852BC8046800EF7725 /* WishListViewController.swift */; };
 		2BFA670D2BC51C8200507ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA670C2BC51C8200507ACE /* AppDelegate.swift */; };
 		2BFA670F2BC51C8200507ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA670E2BC51C8200507ACE /* SceneDelegate.swift */; };
 		2BFA67112BC51C8200507ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA67102BC51C8200507ACE /* ViewController.swift */; };
 		2BFA67142BC51C8200507ACE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA67132BC51C8200507ACE /* Base */; };
 		2BFA67162BC51C8400507ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA67152BC51C8400507ACE /* Assets.xcassets */; };
 		2BFA67192BC51C8400507ACE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA67182BC51C8400507ACE /* Base */; };
+		2BFA67232BC55C8500507ACE /* RemoteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA67222BC55C8500507ACE /* RemoteProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BF5EB822BC7C19900EF7725 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2BF5EB852BC8046800EF7725 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
 		2BFA67092BC51C8200507ACE /* wishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFA670C2BC51C8200507ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFA670E2BC51C8200507ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		2BFA67152BC51C8400507ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BFA67182BC51C8400507ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFA671A2BC51C8400507ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFA67222BC55C8500507ACE /* RemoteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BF5EB842BC8043F00EF7725 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA67102BC51C8200507ACE /* ViewController.swift */,
+				2BF5EB852BC8046800EF7725 /* WishListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		2BFA67002BC51C8200507ACE = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +73,23 @@
 			children = (
 				2BFA670C2BC51C8200507ACE /* AppDelegate.swift */,
 				2BFA670E2BC51C8200507ACE /* SceneDelegate.swift */,
-				2BFA67102BC51C8200507ACE /* ViewController.swift */,
+				2BFA67212BC55C4A00507ACE /* Model */,
+				2BF5EB842BC8043F00EF7725 /* ViewController */,
 				2BFA67122BC51C8200507ACE /* Main.storyboard */,
+				2BF5EB812BC7C19900EF7725 /* Model.xcdatamodeld */,
 				2BFA67152BC51C8400507ACE /* Assets.xcassets */,
 				2BFA67172BC51C8400507ACE /* LaunchScreen.storyboard */,
 				2BFA671A2BC51C8400507ACE /* Info.plist */,
 			);
 			path = wishList;
+			sourceTree = "<group>";
+		};
+		2BFA67212BC55C4A00507ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA67222BC55C8500507ACE /* RemoteProduct.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFA67112BC51C8200507ACE /* ViewController.swift in Sources */,
+				2BF5EB862BC8046800EF7725 /* WishListViewController.swift in Sources */,
 				2BFA670D2BC51C8200507ACE /* AppDelegate.swift in Sources */,
+				2BF5EB832BC7C19900EF7725 /* Model.xcdatamodeld in Sources */,
 				2BFA670F2BC51C8200507ACE /* SceneDelegate.swift in Sources */,
+				2BFA67232BC55C8500507ACE /* RemoteProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +327,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +355,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +391,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BF5EB812BC7C19900EF7725 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BF5EB822BC7C19900EF7725 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2BF5EB822BC7C19900EF7725 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2BFA67012BC51C8200507ACE /* Project object */;
 }
